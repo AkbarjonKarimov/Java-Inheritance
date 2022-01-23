@@ -10,6 +10,6 @@ public class Main {
         PC thePC = new PC(theCase,theMonitor,theMotherboard);
         thePC.getMonitor().drawPixelAt(1,2,"Blue");
         thePC.getMotherboard().loadProgram("Windows 1.0");
-        thePC.getTheCase().pressPowerButton(); 
+        thePC.getTheCase().pressPowerButton();
     }
 }
